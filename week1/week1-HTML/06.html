@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>06</title>
+    <style>
+        *{
+            margin:0 0 0 0;
+            padding:0;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            background-color: blanchedalmond;
+        }
+        #hi
+        {
+            width :50%;
+            background: aquamarine;
+            margin:auto auto;
+            padding:0 0 0 0;
+        }
+        #body{
+            width:100%;
+            height:100%;
+        }
+        #head
+        {
+            height:20%;
+            background: 
+            white;;
+            text-align: center;
+        }
+        .right
+        {
+            flex-grow: 0.5;
+            margin-top:5px;
+        }
+        .center
+        {
+            flex-grow:9.5;
+            text-align: center;
+        }
+        .rb
+        {
+            margin-right:5px;
+        }
+        .lb
+        {
+            margin-right :2%;
+            margin-left:auto;
+        }
+    </style>
+</head>
+<body>
+    <div class = "d-flex p-2 bd-highlight justify-content-center" id = "body">
+        <div class="d-flex align-self-center flex-column" id = "hi">
+
+            <div class="d-flex p-2 bd-highlight flex-row" id = "head">
+
+                <div class = "p-2 bd-highlight center"><h3>compose new tweet</h3></div>
+                <div class="p-2 bd-highlight right">&#x2716;</div>
+
+            </div>
+
+            <div class="d-flex p-2 bd-highlight" id = "body">
+
+                <div class = "lb"><img src = "#" style="margin-left:10px;margin-right:0;"></div>
+                <textarea class = "rb" rows="5" cols = "80" placeholder="Press F12"></textarea>
+
+            </div>
+
+            <div class="d-flex p-2 bd-highlight" id = "btm">
+                <div class="p-2 bd-highlight" style="margin-left: 10%;"><img src="#"></div>
+                <div class="p-2 bd-highlight"><img src="#"></div>
+                <div class="p-2 bd-highlight"><img src="#"></div>
+                <div class="p-2 bd-highlight"><img src="#"></div>
+                <div class="ml-auto p-2 bd-highlight"><img src="#"></div>
+                <div class="p-2 bd-highlight"><img src="#"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
